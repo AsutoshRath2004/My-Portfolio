@@ -15,14 +15,30 @@ export default function Projects() {
         technologies: ["MERN Stack", "Redis", "Machine Learning", "Sentiment Analysis"]
       },
       {
+        title: "DRIVO - A Ride Booking System",
+        description: "A MERN-based real-time ride booking platform with geolocation-based fare calculation, dual-role authentication, and WebSocket-powered ride status updates.",
+        role: "Full Stack Developer",
+        achievements: [
+          "Developed a MERN-based ride booking system with dual-role JWT authentication and bcrypt, ensuring 99.9% session integrity.",
+          "Integrated Google Maps API for live ride tracking and dynamic fare estimation with ±5% accuracy.",
+          "Enabled real-time ride updates via Socket.IO, maintaining sub-200ms latency across 50+ concurrent sessions.",
+          "Achieved 95+ Lighthouse scores using React 19, Vite, Tailwind CSS, and GSAP for a seamless user experience."
+        ],
+        githubUrl: "https://github.com/AsutoshRath2004/Drivo",
+        status: "Personal Project",
+        technologies: [
+          "MERN Stack", "Socket.IO", "Google Maps API", "JWT", "Tailwind CSS", "GSAP", "React 19"
+        ]
+      },      
+      {
         title: "VIDSTREAM - Video Streaming Platform",
         description: "A real-time video streaming platform built during a 36-hour hackathon, supporting 300+ videos and 1,000+ users.",
         role: "Firebase Manager and API Developer",
         achievements: [
-          "Engineered a real-time video streaming platform supporting 300+ videos and 1,000+ users.",
-          "Optimized video API performance, reducing fetching time by 25% and enhancing overall platform speed.",
-          "Integrated Firebase Authentication for secure login and Firebase Realtime Database for user profile management.",
-          "Optimized performance using React and Vite, achieving a 30% faster page load time."
+          "Built a live video platform with Firebase Realtime Database, managing 1,000+ user profiles and video metadata.",
+          "Optimized performance with chunk-based fetching and lazy loading, cutting video load time by 25%.",
+          "Integrated Firebase Auth with session persistence and logout handling, ensuring 99.9% consistency at scale.",
+          "Developed a responsive React + Vite video gallery, improving navigation speed by 30% in low-bandwidth environments."
         ],
         githubUrl: "https://github.com/AsutoshRath2004/Vid-Stream",
         status: "36-Hour Hackathon Project",
