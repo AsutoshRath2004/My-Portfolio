@@ -2,7 +2,7 @@ export default function Skills() {
     const skillCategories = [
       {
         category: "Programming Languages",
-        skills: ["JavaScript", "Java (Intermediate)"]
+        skills: ["JavaScript", "OOPS with Java", "Python Programming Language", "C Programming Language", "DSA with C++"]
       },
       {
         category: "Frontend Development",
@@ -18,16 +18,8 @@ export default function Skills() {
       },
       {
         category: "Tools & Frameworks",
-        skills: ["Redux.js", "Postman", "JSON"]
+        skills: ["Redux.js", "Postman", "JSON APIs", "Git & GitHub"]
       },
-      {
-        category: "Key Competencies",
-        skills: ["Problem Solving", "Authentication & Session Management", "Data Optimization", "API Design & Integration", "Cloud Deployment & Management"]
-      },
-      {
-        category: "Soft Skills",
-        skills: ["Team Collaboration", "Effective Communication", "Initiative", "Time Management", "Adaptability"]
-      }
     ]
   
     return (
